@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-px-to-vw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A preset like postcss-px-to-viewport",
   "author": "Wyatex <wyatex@qq.com>",
   "license": "MIT",
