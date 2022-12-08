@@ -1,0 +1,43 @@
+{
+  "name": "unocss-preset-px-to-vw",
+  "version": "1.0.0",
+  "description": "A preset like postcss-px-to-viewport",
+  "author": "Wyatex <wyatex@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Wyatex/unocss-preset-px-to-vw",
+  "bugs": {
+    "url": "https://github.com/Wyatex/unocss-preset-px-to-vw/issues"
+  },
+  "keywords": [
+    "unocss",
+    "unocss-preset"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "release": "bumpp"
+  },
+  "dependencies": {
+    "@unocss/core": "^0.47.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "bumpp": "^8.2.1",
+    "typescript": "^4.9.4",
+    "unbuild": "^1.0.2"
+  }
+}
