@@ -43,7 +43,7 @@ Unocss({
 ### without
 
 ```css
-.m-2 {
+.m-750px {
   margin: 750px;
 }
 ```
@@ -53,7 +53,7 @@ Unocss({
 ### with
 
 ```css
-.m-2 {
+.m-750px {
   margin: 100vw;
 }
 ```
